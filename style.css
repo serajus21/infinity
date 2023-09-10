@@ -16,22 +16,6 @@ header {
 .menu {font-size: 1.25em; width: 1em; background-color: transparent; border: none; margin: 0 0 0 0.5em; position: fixed; color: transparent;}
 #view {rotate: 90deg;}
 
-/*
-<main>
-    <section>
-        <span class="main main--subtitle">Get your customized clothing</span>
-        <span class="main main--title">A Custom Outfit only <br>for your shape & <br>no one else's</span>
-        <span class="main main--description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, nihil velit voluptatem tempora labore, facere delectus dolorem vero ratione, explicabo consequatur? Corrupti totam quibusdam atque quasi quam itaque porro libero?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis consequatur provident sit error repudiandae excepturi corrupti at eligendi accusamus, voluptates tenetur dolorum cum, sed pariatur ex aliquid omnis asperiores.</span>
-    </section>
-    <form action="https://formspree.io/f/xpzgreya" method="post">
-        <input type="text" name="name" placeholder="Full Name">
-        <input type="text" name="number" placeholder="Contact Number">
-        <input type="email" name="email" placeholder="Email Address">
-        <input type="password" name="password" placeholder="Password">
-        <input type="submit" value="Book Appointment">
-    </form>
-</main>
-*/
 /* main */
 main {
     display: flex; justify-content: space-between; align-items: flex-end; padding: 7em 3em;
@@ -64,7 +48,7 @@ input[type=submit]:hover {cursor: pointer; background-color: burlywood;}
     #hide {display: none;}
     .link--brand img {height: 2em;}
     .link--brand span{font-size: 1.5em;}
-    .nav {position: fixed; top: 5em; right: -100%; width: 100%; height: 100vh; background-color: black; display: flex; flex-direction: column; align-items: center; transition: all 250ms ease;}
+    .nav {position: fixed; top: 5em; right: -100%; width: 100%; height: 100vh; background-color: rgba(0, 0, 0, 0.859); display: flex; flex-direction: column; align-items: center; transition: all 250ms ease;}
     .link--nav {margin: 1.5em 0 0 0;}
     .join .link {font-size: 0.8em;}
     /* main */
